@@ -9,14 +9,14 @@ import UIKit
 import Swifter
 import RealmSwift
 import SafariServices
-import LinkPresentation
 
 class SerchResultsTableViewController: UITableViewController {
     
     // MainViewControllerのSearchBarに入力された文字列を受け取る変数
     var searchBarInputedWord: String?
     
-    // Swifterクラスのインスタンスを作成、TwitterAPIのキーを使用する
+    /* Swifterインスタンスを作成
+       TwitterAPIのキーのconsumerKeyとconsumerSecretを、文字列として引数に渡してください。*/
     let swifter = Swifter(consumerKey: twitterAPIconsumerKey, consumerSecret: twitterAPIconsumerSecret)
     
     // UserDefaults使用準備
