@@ -12,7 +12,6 @@ class MainViewController: UIViewController, UISearchBarDelegate {
     
     // UISearchBarの入力情報を渡す準備2：UISearchBarのインスタンスをIBOutletと紐付け
     @IBOutlet weak var searchField: UISearchBar!
-    
     @IBOutlet weak var historyButton: UIButton!
     @IBOutlet weak var settingsButton: UIButton!
     
