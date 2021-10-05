@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 extension String {
     
     // String型のインスタンスからURLを取り除くメソッド

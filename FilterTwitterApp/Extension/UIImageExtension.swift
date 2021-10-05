@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 extension UIImage {
     // 画像をリサイズするメソッド
     func resize(size: CGSize) -> UIImage {
